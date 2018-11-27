@@ -18,4 +18,8 @@ class GuiseppesMenu
     price_array
   end
 
+  def get_all_food_items
+    @menu.search('food')
+  end
+
 end
